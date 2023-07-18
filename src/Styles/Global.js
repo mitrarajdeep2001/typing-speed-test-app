@@ -146,7 +146,7 @@ export const GlobalStyles = createGlobalStyle`
         color: ${({theme}) => theme.textColor};
     }
 
-    .right-stat{
+    .right-stat, .graphData, .tableData{
         width: 70%;
         border: 2px solid ${({theme}) => theme.borderColor};
         border-radius: 10px;
@@ -177,4 +177,17 @@ export const GlobalStyles = createGlobalStyle`
        flex-direction: column;
        justify-content: center;
     }
+
+    .UserPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-block: 30px;
+    }
+
+    ${'' /* .tableData{
+
+    } */}
 `;
