@@ -8,7 +8,7 @@ Welcome to Typerr.com, a unique typing speed test app designed to help you impro
 
 1. **Timing Modes:** Typerr.com offers four different timing modes to challenge yourself at various difficulty levels - 15s, 30s, 60s, and 120s.
 
-2. **Real-time Feedback:** As you take the typing test, the app provides real-time feedback on your performance. Correctly typed words are highlighted in green, while wrongly typed, extra, or missed words are displayed in red.
+2. **Real-time Feedback:** As you take the typing test, the app provides real-time feedback on your performance. Correctly typed characters are highlighted in green, while wrongly typed, extra, or missed characters are displayed in red.
 
 3. **Themes:** Express your style with a choice of ten beautifully crafted themes. The default theme is Lavender, and other themes include Reydan, Cyan, Grayan, Indigio, Leafy, Pinky, Blaze, Rasin Black, and Jasper.
 
