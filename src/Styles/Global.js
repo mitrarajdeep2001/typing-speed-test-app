@@ -187,7 +187,34 @@ export const GlobalStyles = createGlobalStyle`
         padding-block: 30px;
     }
 
-    ${'' /* .tableData{
+    .userData{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 
-    } */}
+    .user-profile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        background-color: ${({theme}) => theme.appBar};
+        ${'' /* border: 2px solid ${({theme}) => theme.borderColor}; */}
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .user-info{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: ${({theme}) => theme.textColor};
+        border-left: 2px solid ${({theme}) => theme.textColor};
+        padding-left: 100px;
+    }
+
+    .user-info span{
+        font-weight: normal;
+        font-style: italic;
+        line-height: 3rem;
+    }
 `;

@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Typerr.com - Typing Speed Test App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Typerr Logo](https://raw.githubusercontent.com/mitrarajdeep2001/typing-speed-test-app2/main/logo.png)
 
-## Available Scripts
+Welcome to Typerr.com, a unique typing speed test app designed to help you improve your typing skills. This app offers a range of features and themes to make your typing experience enjoyable and engaging.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Timing Modes:** Typerr.com offers four different timing modes to challenge yourself at various difficulty levels - 15s, 30s, 60s, and 120s.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Real-time Feedback:** As you take the typing test, the app provides real-time feedback on your performance. Correctly typed words are highlighted in green, while wrongly typed, extra, or missed words are displayed in red.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Themes:** Express your style with a choice of ten beautifully crafted themes. The default theme is Lavender, and other themes include Reydan, Cyan, Grayan, Indigio, Leafy, Pinky, Blaze, Rasin Black, and Jasper.
 
-### `npm test`
+4. **User Authentication:** Typerr.com comes with a login and logout functionality, ensuring your data is secure and private.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **User Page:** Upon logging in, users have access to their dedicated user page. This page displays user details, a graphical representation of their typing speed progress, and a record of the typing tests they have taken.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To create this web app, I utilized the following technologies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React: A popular JavaScript library for building user interfaces, providing an interactive and dynamic user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Router DOM: Used for handling navigation and routing within the app.
 
-### `npm run eject`
+- React Hooks: Including useState, useEffect, useContext, useRef, and useMemo, to manage state, side effects, and context in a functional component.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Styled Components: Used to style the components with CSS-in-JS, providing a modular and maintainable styling approach.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Chart.js: Utilized to render beautiful and interactive graphs representing the user's typing speed progress.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React Loader Spinner: Implemented to display loading animations, enhancing user experience during data fetching.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Firebase: Employed for data storage and user authentication, ensuring a reliable and secure experience for users.
 
-## Learn More
+- React Toastify: Used for displaying success and error notifications, providing user feedback in a visually appealing manner.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Material UI: Leveraged Material UI components and icons to improve the app's overall aesthetics and usability.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+The Typerr.com app is live and accessible through the following link: [https://typerrcom.netlify.app](https://typerrcom.netlify.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Get Started
 
-### Analyzing the Bundle Size
+To run the app locally on your machine, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository: `git clone https://github.com/your_username/typerr.git`
+2. Navigate to the project directory: `cd typerr`
+3. Install the required dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Access the app in your browser at: `http://localhost:3000`
 
-### Making a Progressive Web App
+## Feedback and Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you encounter any issues, have suggestions for improvements, or need assistance, please feel free to reach out to our support team at support@typerr.com.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy typing and enjoy your journey to becoming a faster and more accurate typist with Typerr.com!

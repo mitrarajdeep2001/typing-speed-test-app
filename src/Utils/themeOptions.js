@@ -1,5 +1,5 @@
-const defaultTheme = {
-    label: "Blaze (D)",
+const blaze = {
+    label: "Blaze",
     appBar: "#1565c0",
     backgroundColor: "#000",
     textColor: "#fff",
@@ -62,7 +62,7 @@ const pinky = {
 }
 
 const lavender = {
-    label: "Lavender",
+    label: "Lavender (D)",
     appBar: "#EB9486",
     backgroundColor: "#F7EDF0",
     textColor: "#272838",
@@ -91,8 +91,8 @@ const jasper = {
 
 export const themeOptions = [
     {
-        label: defaultTheme.label,
-        value: defaultTheme
+        label: lavender.label,
+        value: lavender
     },
     {
         label: reydan.label,
@@ -119,8 +119,8 @@ export const themeOptions = [
         value: pinky
     },
     {
-        label: lavender.label,
-        value: lavender
+        label: blaze.label,
+        value: blaze
     },
     {
         label: rasinBlack.label,

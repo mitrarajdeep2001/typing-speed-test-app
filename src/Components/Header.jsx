@@ -16,8 +16,8 @@ export default function Header() {
         sx={{ bgcolor: theme.appBar, color: theme.textColor }}
       >
         <Toolbar sx={{ marginInline: "25px" }}>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Logo
+          <Typography variant="h6" component="div" sx={{display: "flex", flexGrow: 1, alignItems: "center" }}>
+          <img src="https://github.com/mitrarajdeep2001/typing-speed-test-app2/blob/main/logo.png?raw=true" alt="logo" style={{width: "80px", height: "50px", borderRadius: "10px"}}/>
           </Typography>
           <Account />
         </Toolbar>

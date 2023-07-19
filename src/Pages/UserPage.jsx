@@ -6,10 +6,12 @@ import { RotatingLines } from "react-loader-spinner";
 import TableUserData from "../Components/TableUserData";
 import Graph from "../Components/Graph";
 import { useTheme } from "../Context/ThemeContext";
+import UserInfo from "../Components/UserInfo";
 
 const UserPage = () => {
   const [data, setData] = useState([]);
   const [graphData, setGraphData] = useState([]);
+  const [dataLoading, setDataLoading] = useState(true)
   const [user, loading, error] = useAuthState(auth);
   const navigate = useNavigate();
   const { theme } = useTheme();
@@ -36,6 +38,7 @@ const UserPage = () => {
         });
         setData(tempData);
         setGraphData(tempGraphData);
+        setDataLoading(false)
       });
   };
 
@@ -48,7 +51,7 @@ const UserPage = () => {
   }, [loading]);
 
   //If loading show the loader
-  if (loading) {
+  if (loading || dataLoading) {
     return (
       <div
         style={{
@@ -70,6 +73,9 @@ const UserPage = () => {
   }
   return (
     <div className="UserPage">
+      <div className="userData">
+        <UserInfo dataLength={data.length} />
+      </div>
       <div className="graphData" style={{ padding: "20px" }}>
         <Graph graphData={graphData} />
       </div>
