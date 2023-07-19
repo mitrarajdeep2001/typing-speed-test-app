@@ -54,6 +54,6 @@ To run the app locally on your machine, follow these steps:
 
 ## Feedback and Support
 
-If you encounter any issues, have suggestions for improvements, or need assistance, please feel free to reach out to our support team at support@typerr.com.
+If you encounter any issues, have suggestions for improvements, or need assistance, please feel free to reach out to our support team at rajdeepmitra8@gmail.com.
 
 Happy typing and enjoy your journey to becoming a faster and more accurate typist with Typerr.com!
