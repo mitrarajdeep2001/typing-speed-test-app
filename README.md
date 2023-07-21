@@ -8,7 +8,7 @@ Welcome to Typerr.com, a unique typing speed test app designed to help you impro
 
 1. **Timing Modes:** Typerr.com offers four different timing modes to challenge yourself at various difficulty levels - 15s, 30s, 60s, and 120s.
 
-2. **Real-time Feedback:** As you take the typing test, the app provides real-time feedback on your performance. Correctly typed words are highlighted in green, while wrongly typed, extra, or missed words are displayed in red.
+2. **Real-time Feedback:** As you take the typing test, the app provides real-time feedback on your performance. Correctly typed characters are highlighted in green, while wrongly typed, extra, or missed characters are displayed in red.
 
 3. **Themes:** Express your style with a choice of ten beautifully crafted themes. The default theme is Lavender, and other themes include Reydan, Cyan, Grayan, Indigio, Leafy, Pinky, Blaze, Rasin Black, and Jasper.
 
@@ -24,7 +24,7 @@ To create this web app, I utilized the following technologies:
 
 - React Router DOM: Used for handling navigation and routing within the app.
 
-- React Hooks: Including useState, useEffect, useContext, useRef, and useMemo, to manage state, side effects, and context in a functional component.
+- React Hooks: Including useState, useEffect, useContext, useRef, and useMemo, to manage state, side effects, and context in a functional component. Also used custom hooks.
 
 - Styled Components: Used to style the components with CSS-in-JS, providing a modular and maintainable styling approach.
 
