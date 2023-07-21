@@ -54,46 +54,48 @@ const TableUserData = ({ data }) => {
               </TableCell>
             </TableRow>
           </TableHead>
-          {data.map((e, i) => (
-            <TableBody key={i}>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {e.WPM}
-              </TableCell>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {e.accuracy}
-              </TableCell>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {e.correctChars}
-              </TableCell>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {e.incorrectChars}
-              </TableCell>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {e.extraChars}
-              </TableCell>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {e.missedChars}
-              </TableCell>
-              <TableCell
-                style={{ color: theme.textColor, textAlign: "center" }}
-              >
-                {new Date(e.timeStamp.toDate()).toLocaleDateString()} &{" "}
-                {new Date(e.timeStamp.toDate()).toLocaleTimeString()}
-              </TableCell>
-            </TableBody>
-          ))}
+          <TableBody>
+            {data.map((e, i) => (
+              <TableRow key={i}>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {e.WPM}
+                </TableCell>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {e.accuracy}
+                </TableCell>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {e.correctChars}
+                </TableCell>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {e.incorrectChars}
+                </TableCell>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {e.extraChars}
+                </TableCell>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {e.missedChars}
+                </TableCell>
+                <TableCell
+                  style={{ color: theme.textColor, textAlign: "center" }}
+                >
+                  {new Date(e.timeStamp.toDate()).toLocaleDateString()} &{" "}
+                  {new Date(e.timeStamp.toDate()).toLocaleTimeString()}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
         </Table>
       </TableContainer>
     </div>
