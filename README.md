@@ -24,7 +24,7 @@ To create this web app, I utilized the following technologies:
 
 - React Router DOM: Used for handling navigation and routing within the app.
 
-- React Hooks: Including useState, useEffect, useContext, useRef, and useMemo, to manage state, side effects, and context in a functional component.
+- React Hooks: Including useState, useEffect, useContext, useRef, and useMemo, to manage state, side effects, and context in a functional component. Also used custom hooks.
 
 - Styled Components: Used to style the components with CSS-in-JS, providing a modular and maintainable styling approach.
 
