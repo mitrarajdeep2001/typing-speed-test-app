@@ -60,6 +60,7 @@ const UpperMenu = () => {
         <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
           <BasicSelect />
         </div>
+        {countDown < testTime && countDown > 0 ?  <div className="typing-msg">Typing...</div> : ""}
         <div className="timer">
           <AccessAlarmIcon style={{ fontSize: "2rem" }} />{" "}
           <span>{countDown}s</span>

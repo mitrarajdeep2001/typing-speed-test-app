@@ -54,6 +54,12 @@ export const GlobalStyles = createGlobalStyle`
         overflow: hidden;
     }
 
+    .typing-msg{
+        font-size: 2rem;
+        font-weight: 600;
+        color: ${({theme}) => theme.textColor};
+    }
+
     .words{
         font-size: 1.5rem;
         display: flex;
