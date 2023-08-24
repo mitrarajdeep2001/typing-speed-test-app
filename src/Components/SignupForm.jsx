@@ -133,7 +133,7 @@ const SignupForm = () => {
         }}
         onClick={handleSignup}
       >
-        Login
+        Create Account
       </Button>
     </Box>
   );
